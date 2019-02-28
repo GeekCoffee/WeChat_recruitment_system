@@ -20,16 +20,15 @@
 
 #### 使用说明
 
-```
-    1、数据库：数据库的所有SQL语言都写在了<font color="green">【后台管理员端\chengde_project\src\main\sqlschema.sql】</font>文件中，相关SQL注释已经写好
-    2、后台程序：因为项目是用<font color="cyan">maven构建</font>的，所以所有依赖包都在<font color="green"> pom.xml </font>中，用<font color="green">IntelliJ IED工具 </font>打开这个<font color="green"> pom.xml 文件</font>就可以了
-    3、后台程序目录：在<font color="green">【后台管理员端\chengde_project\src\main】</font>里面
-    4、微信小程序：会开发小程序的人应该都知道怎么打开一个微信小程序的，这不用多说了吧 嘻嘻~~
-    5、还有不懂的就在<font color="red"> “项目说明文档” </font>里面找吧，一般的问题都能解决
-```
+   1、数据库：数据库的所有SQL语言都写在了<font color="green">【后台管理员端\chengde_project\src\main\sqlschema.sql】</font>文件中，相关SQL注释已经写好
+   2、后台程序：因为项目是用<font color="cyan">maven构建</font>的，所以所有依赖包都在<font color="green"> pom.xml </font>中，用<font color="green">IntelliJ IED工具 </font>打开这个<font color="green"> pom.xml 文件</font>就可以了
+   3、后台程序目录：在<font color="green">【后台管理员端\chengde_project\src\main】</font>里面
+   4、微信小程序：会开发小程序的人应该都知道怎么打开一个微信小程序的，这不用多说了吧 嘻嘻~~
+   5、还有不懂的就在<font color="red"> “项目说明文档” </font>里面找吧，一般的问题都能解决
 <font color="green">【后台管理员端\chengde_project\src\main\sqlschema.sql】</font>
 
 #### 相关技术介绍
+
 * 微信小程序开发技术：包括WXML、WXSS、json配置、原生js
 * 使用了高并发技术架构SSM框架(spring + springMVC + mybatis)
 * 使用了maven管理工具
