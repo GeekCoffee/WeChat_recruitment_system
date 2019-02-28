@@ -20,6 +20,7 @@
     4、微信小程序：会开发小程序的人应该都知道怎么打开一个微信小程序的，这不用多说了吧 嘻嘻~~
     5、还有不懂的就在<font color="red"> “项目说明文档” </font>里面找吧，一般的问题都能解决
 ```
+<font color="green">【后台管理员端\chengde_project\src\main\sqlschema.sql】</font>
 
 #### 相关技术介绍
 * 微信小程序开发技术：包括WXML、WXSS、json配置、原生js
