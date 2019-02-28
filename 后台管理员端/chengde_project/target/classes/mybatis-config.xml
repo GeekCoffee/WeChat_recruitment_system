@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>  <!-- 配置mybatis的全局属性 -->
+        <setting name="useGeneratedKeys" value="true" /> <!-- 使用JDBC的getGeneratedKeys方法获取到数据库自增主键值 -->
+        <setting name="useColumnLabel" value="true" /> <!-- 使用列别名替换列名， select name as title from seckill ,这样写Dao.xml的时候就不需要转换驼峰名了 -->
+        <setting name="mapUnderscoreToCamelCase" value="true" /> <!-- 使用驼峰命名法：table(create_time) -> Entity(createTime) -->
+    </settings>
+</configuration>

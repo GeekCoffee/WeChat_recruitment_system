@@ -1,0 +1,1 @@
+上面的chengde_project文件夹直接放到 tomcat的webapps目录下，即可跑起来

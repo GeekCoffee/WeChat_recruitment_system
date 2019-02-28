@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/about/about",
+    "pages/cover/cover",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2CC996",
+    "navigationBarTitleText": "诚德",
+    "navigationBarTextStyle":"black"
+  }, 
+  "tabBar": {
+    "color": "#616161",
+    "selectedColor": "#51AC97",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "职位",
+        "iconPath": "assert/icon/offer.png",
+        "selectedIconPath": "assert/icon/offer2.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "企业",
+        "iconPath": "assert/icon/enterprise.png",
+        "selectedIconPath": "assert/icon/enterprise2.png"
+      }
+    ]
+  }
+}

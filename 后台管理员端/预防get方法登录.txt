@@ -1,0 +1,2 @@
+利用session机制：
+HttpServletHttp   req  =  req.getSession().setAttribute("key",value)

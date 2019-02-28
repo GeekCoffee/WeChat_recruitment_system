@@ -1,0 +1,59 @@
+
+
+<image src="{{topImg}}" class="enterImage">
+</image>
+<view class="applyAllMessage">
+  <view class="shopName">
+
+  <!-- 
+  
+  -->
+    <text class="contextName">您的姓名：</text>
+    <input type="text" name="name" bindinput='employeeNameInput'confirm-type="done" placeholder="请输入您的姓名" class="shopText" placeholder-class="placeTextss"  value='{{employeeNameInput}}'/>
+  </view>
+  <view class="shopName">
+    <text class="contextName">您的性别：</text>
+    <input type="text" name="sex" bindinput='employeeSexInput' confirm-type="done" placeholder="请输入您的性别" class="shopText" placeholder-class="placeTextss" value='{{employeeSexInput}}' />
+  </view>
+  <view class="shopName">
+    <text class="contextName">您的年龄：</text>
+    <input type="number" name="age" bindinput='employeeAgeInput' confirm-type="done" placeholder="请输入您的年龄" class="shopText" placeholder-class="placeTextss" value='{{employeeAgeInput}}' />
+  </view>
+  <view class="shopName">
+    <text class="contextName">应聘职位：</text>
+    <input type="text" name="name" bindinput='positionAppliedInput' confirm-type="done" placeholder="想应聘什么职位" class="shopText" placeholder-class="placeTextss" value='{{positionAppliedInput}}' />
+  </view>
+  <view class="shopName">
+    <text class="contextName">联系电话 :</text>
+    <input type="number" name="phoneNumber" bindinput='phoneNameInput' confirm-type="done"placeholder="您的手机号" class="shopText" placeholder-class="placeTextss"  value='{{phoneNameInput}}'/>
+  </view>
+  <view class="shopName">
+    <text class="contextName">期望工资 :</text>
+    <input type="text" name="phoneNumber" confirm-type="done" bindinput='expectedSalaryInput'placeholder="如 3k-7k/月" class="shopText" placeholder-class="placeTextss" value='{{expectedSalaryInput}}' />
+  </view>
+   <view class="introduce">
+    <text class="contextName">您的特长：</text>
+    <textarea name="speciality" cursor="1" placeholder="" confirm-type="done" confirm-type="done" class="shopTexta" bindinput='employeeSkillsInput' placeholder-class="placeholderClass" value='{{employeeSkillsInput}}' ></textarea>
+  </view>
+   <view class="introduce">
+    <text class="contextName">以往经历：</text>
+    <textarea  name="speciality" placeholder="" confirm-type="done" class="shopTexta" bindinput='experienceInput' placeholder-class="placeholderClass" value='{{experienceInput}}'/>
+  </view>
+  <view class="introduce">
+    <text class="contextName">期望待遇：</text>
+    <textarea  name="speciality" placeholder="" confirm-type="done" class="shopTexta" bindinput='treatmentInput' placeholder-class="placeholderClass" value='{{treatmentInput}}' />
+  </view>
+  
+  <text class="connect">请认真填写联系方式，确保我们能尽快联系到您</text>
+  <view class="agree">
+    <checkbox-group bindchange="checkboxChange">
+      <checkbox value="" checked="true" disabled='true'/>
+    </checkbox-group>
+    <text class="read">我已确定并了解自己所填信息</text>
+    <text class="agreement">【诚德人力资源公司】</text>
+  </view>
+  <view class="enter" bindtap="submit">
+     <text class="enterText" >我填好了</text>
+  </view>
+</view>
+

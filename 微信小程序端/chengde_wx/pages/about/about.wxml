@@ -1,0 +1,29 @@
+<view class="container">
+  <view class="top-imgs">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>  <!-- swiper end -->
+  <view class="lib-header">
+    <image src="{{libLogoUrl}}" class="lib-logo"></image>
+    <text class="lib-name">{{libName}}</text>
+  </view>
+  <view class="gradit-line">企业简介</view>
+  <view class="lib-intro">
+    <text>{{libIntro}}</text>
+  </view>
+
+   <view class="gradit-line-manager">联系我们</view>
+  <view class="manager-intro">
+    <!-- <text class="text1">联系人：<text  class="phone-color-black" >{{managerName}}</text></text> -->
+    <text  class=" text1" bindtap="callUp">客服电话：<text  class="phone-color" >{{phone}}</text></text>
+    <text class="text1">电子邮件：<text  class="phone-color-black" >{{managerEmail}}</text></text>
+    <text class="text1">办公地址：<text  class="phone-color-black" >{{address}}</text></text>
+  </view>
+
+</view>
+ 

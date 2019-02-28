@@ -1,0 +1,169 @@
+/**index.wxss**/
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
+
+page {
+  background-color: #E3E2E7; /* #f2f2f2  F2F7FB  E3E3E3  E3E2E7*/  
+}
+.enterImage
+{
+  width: 100%;
+  height: 350rpx;
+}
+
+.applyAllMessage
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.shopName
+{
+  background-color: white;
+  border: 0.5px solid #f2f2f2;
+  width: 94%;
+  margin-left: 3%;
+  /* border-radius: 10px; */
+  height: 96rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20rpx;
+}
+.contextName
+{
+  font-size: 30rpx;
+  color: #696969;
+  /* display: block; */
+  /* width: 180rpx; */
+  /* border: 1px solid #02B28B; */
+}
+.placeTextss
+{
+    font-size: 28rpx;
+    /* margin-left: -50rpx;  */
+    
+}
+.shopText
+{
+  /* width: 80%; */
+  width: 500rpx;
+  margin-left: -55rpx;
+  margin-top: 1rpx;
+  /* border: 1px solid red; */
+  height: 100rpx;
+
+}
+.introduce
+{
+  background-color: white;
+  border: 0.5px solid #f2f2f2;
+  width: 94%;
+  margin-left: 3%;
+  /* border-radius: 10px; */
+  height: 400rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20rpx;
+}
+
+.introduce .contextName
+{
+  font-size: 30rpx;
+  color: #696969;
+  margin-left: 22rpx;
+}
+
+.license-container{
+  border: 1px solid #ddd;
+  width: 94%;
+  margin-left: 3%;
+  height: 390rpx;
+  margin-top: 20rpx;
+}
+
+.license-img{
+   width: 100%;
+   height: 100%;
+}
+
+
+.shopTexta
+{
+  font-size: 30rpx;
+  height: 350rpx;
+  width: 530rpx;
+  padding-top: 40rpx;
+  /* border: 1px solid red; */
+}
+
+.placeholderClass{
+  font-size: 30rpx;
+  /* line-height: 300rpx; */
+  /* color: darkorchid; */
+}
+.connect
+{
+  font-size: 25rpx;
+  margin-left: 50rpx;
+  margin-top: 20rpx;
+}
+.agree
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50rpx;
+  margin-top: 20rpx;
+}
+.read
+{
+  font-size: 25rpx;
+  color: #696969;
+}
+.agreement
+{
+  font-size: 25rpx;
+  color: blue;
+}
+.enter
+{
+  margin-top: 60rpx;
+  background-color: #02B28B;
+  height: 80rpx;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  margin-left: 5%;
+  margin-bottom: 50rpx;
+}
+.enterText
+{
+  font-size: 33rpx; 
+  font-style:expanded;
+  color: white;
+}

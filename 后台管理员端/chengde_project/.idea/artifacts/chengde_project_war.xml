@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chengde_project:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="chengde_project.war">
+      <element id="artifact" artifact-name="chengde_project:war exploded" />
+    </root>
+  </artifact>
+</component>

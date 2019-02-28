@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 配置SpringMVC -->
+    <!-- step1:开启springMVC注解模式
+        作用：简化配置
+        （1）自动注册DefaultAnnotationHannderMapping , AnnotationMethodHannder
+        （2）提供一系列的功能：
+              1)数据绑定   2)数字和日期的format ，@DataTimeFormat  @NumberFormat
+        （3） 提供XML、JSON默认读写支持
+        （4）
+     -->
+    <mvc:annotation-driven />
+
+    <!-- 配置静态资源，直接映射到对应的文件夹，DispatcherServlet 不处理 -->
+    <mvc:resources mapping="/images/**" location="/WEB-INF/images/" />
+    <!--<mvc:resources mapping="/uploadImgs/**" location="/WEB-INF/uploadImgs/" />-->
+    <!--<mvc:resources mapping="/uploadGoodsImgs/**" location="/WEB-INF/uploadGoodsImgs/" />-->
+    <mvc:resources mapping="/css/**" location="/WEB-INF/css/" />
+    <mvc:resources mapping="/js/**" location="/WEB-INF/js/" />
+    <mvc:resources mapping="/img/**" location="/WEB-INF/img/" />
+    <mvc:resources mapping="/resourcesPlus/**" location="/WEB-INF/jsp/resourcesPlus/" />
+
+
+
+
+    <!-- step2:静态资源默认servlet配置
+        (1) 加入对静态资源的处理：js 、gif、png
+        (2) 允许使用"/"做整体映射
+     -->
+    <mvc:default-servlet-handler />
+
+    <!--配置JSP， 显示ViewResolver -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
+        <property name="prefix" value="/WEB-INF/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
+
+    <!-- step4:扫描web相关的bean -->
+    <context:component-scan base-package="com.geektech.web" />
+
+</beans>

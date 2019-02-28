@@ -1,0 +1,34 @@
+1- 查看腾讯云的tomcat配置过程
+   
+    一定要在域名指向的服务器上配置SSL安全证书，不然在其他电脑上不好使。
+
+  第一步：获取证书 ， www.geektechonology.cn.jks(密钥库)
+
+  第二步：证书安装，
+<Connector port="443" protocol="HTTP/1.1" SSLEnabled="true"
+    maxThreads="150" scheme="https" secure="true"
+    keystoreFile="conf\www.domain.com.jks"
+    keystorePass="changeit"
+    clientAuth="false" sslProtocol="TLS" />
+
+
+ 第三步：HTTP跳转https安全配置：
+
+  <web-resource-collection >
+    <web-resource-name >SSL</web-resource-name>
+    <url-pattern>/*</url-pattern>
+</web-resource-collection>
+<user-data-constraint>
+    <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+</user-data-constraint>
+
+
+
+2- 打开Linux防火墙端口：443
+
+    具体命令上网查    
+
+注意两点：
+（1）不论是从80端口转443，还是从8080端口转443，都写8080端口
+（2）keystoreFile="写绝对路径"，如：keystoreFile="/var/tomcat/tomcat-8/cdrlzy888.com.jks"
+    

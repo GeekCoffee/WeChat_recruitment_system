@@ -1,0 +1,28 @@
+     #libname{
+        color: #fff;
+      }
+      #navSearchBtn{
+        margin-left: 20px;
+      }
+      .bookCoverImg{
+        width: 72px;
+        height: 92px;
+      }
+      .book-name{
+        line-height: 92px;
+      }
+      .fontChangeBig{
+        line-height: 92px;
+     }
+     .toTop{
+         margin-top: -50px;
+     }
+     .avatarImg{
+         width: 85px;
+         height: 85px;
+         border-radius: 50%;
+     }
+     .goodsImg{
+         width: 82px;
+         height: 106px;
+     }

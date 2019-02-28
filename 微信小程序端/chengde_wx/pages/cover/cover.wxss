@@ -1,0 +1,11 @@
+/* pages/cover/cover.wxss */
+
+.container{
+   width: 750rpx;
+   height: 1134rpx;
+}
+
+.coverImg{
+  width: 750rpx;
+  height: 100%;
+}

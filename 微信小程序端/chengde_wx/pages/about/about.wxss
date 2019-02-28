@@ -1,0 +1,221 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0rpx;
+}
+
+.top-imgs{
+    width: 100%;
+    height: 580rpx;
+     /* border: 1px solid #000;  */
+}
+
+.top-imgs swiper{
+    width: 100%;
+    height: 580rpx;
+}
+
+.top-imgs image{
+    width:750rpx ;
+    height: 580rpx;
+    /* border: 1px solid red; */
+}
+
+.lib-header{
+    width: 100%;
+    height: 220rpx;
+    position: relative;
+    /* border: 1px solid blue; */
+    margin-top: 60rpx;
+    margin-bottom: 20rpx;
+}
+
+.lib-logo{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    border:1rpx solid white;
+    position: absolute;
+    top: 45rpx;
+    left: 50rpx;
+}
+
+.lib-name{
+    position: absolute;
+    top: 75rpx;
+    left: 180rpx;
+    font-weight: bold;
+}
+
+.lib-intro{
+    width: 100%;
+    height: 880rpx;
+    margin-bottom: 50rpx;
+}
+
+.gradit-line-manager{
+    width:650rpx;
+    height: 30px;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 70rpx;
+     border-bottom: 1px solid #ddd;
+}
+
+.manager-intro{
+    width: 100%;
+    height: 240rpx;
+    margin-top: 25rpx;
+    margin-left: 10rpx;
+}
+
+.text1{
+   display: inline-block;
+   letter-spacing: 1px;
+   color: #7F7F7F;
+   font-size: 34rpx;
+   line-height: 30rpx;
+   padding: 20rpx 50rpx 30rpx 50rpx;
+   text-indent: 5rpx;
+   /* border: 1px solid #33b5e5; */
+}
+
+
+
+.gradit-line{
+    width:650rpx;
+    height: 30px;
+    border-bottom: 1px solid #ddd;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 40rpx;
+}
+
+.lib-intro text{
+    display: inline-block;
+    letter-spacing: 3rpx;
+    color: #7F7F7F;
+    font-size: 35rpx;   
+    line-height: 50rpx;
+    text-indent: 60rpx; 
+    padding: 20rpx 50rpx 30rpx 50rpx;
+}
+
+.into-books{
+    width: 100%;
+    height: 450rpx;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20rpx;
+}
+
+.book-recommend{
+    margin: 40rpx 5rpx 0rpx 35rpx
+}
+
+.book-cover{
+    width: 200rpx;
+    height: 291rpx;
+}
+
+.book-name{
+    font-size: 28rpx;
+    display: block;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+    font-weight: bold;
+}
+
+.author{
+    display: block;
+    font-size: 23rpx;
+    color: #7F7F7F;
+}
+
+.into-btn{
+    width: 90%;
+    margin-top: 10rpx;
+    margin-bottom: 40rpx;
+}
+
+/**  好书推荐 **/
+
+.cast {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40rpx;
+  margin-top: 50rpx;
+}
+
+.cast-font {
+  color: #999;
+  margin-bottom: 40rpx;
+}
+
+.cast-container {
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 50rpx;
+  margin-right: 30rpx;
+  width: 200rpx;
+  text-align: left; /* 让文字在图片的正下方显示 */
+  white-space: normal; /* 正常换行 */
+}
+
+.cast-imgs {
+  display: flex;
+  flex-direction: row;
+  white-space: normal;
+}
+
+.cast-img {
+  width: 200rpx;
+  height: 289.1rpx;
+}
+
+.cast-name {
+  font-size: 32rpx;
+  margin-bottom: 12rpx;
+  color: #000;
+}
+
+.author {
+  margin-bottom: 16rpx;
+  font-size: 22rpx;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10rpx;
+}
+
+.intoBtn{
+   width: 100%;
+   margin: 30rpx auto;
+}
+
+
+.phone-color{
+   color: #33b5e5;  
+    letter-spacing: 1px;
+   font-size: 34rpx;
+   line-height: 30rpx;
+   margin: 20rpx 50rpx 0rpx 50rpx;
+   text-indent: 5rpx;
+   border-bottom: 1rpx solid #33b5e5;
+   margin-left: -2rpx;
+}
+
+
+.phone-color-black{
+   color: #000;  
+   letter-spacing: 1px;
+   font-size: 34rpx;
+   line-height: 60rpx;
+   margin: 20rpx 50rpx 0rpx 50rpx;
+   text-indent: 5rpx;
+   margin-left: -2rpx;
+}

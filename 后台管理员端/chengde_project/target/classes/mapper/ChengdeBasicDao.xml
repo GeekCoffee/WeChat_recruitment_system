@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.geektech.dao.ChengdeBasicDao">
+    <insert id="addInfoOne">
+        INSERT INTO chengde_register VALUES
+            (DEFAULT,#{name},#{sex},#{age},#{position},#{phone},
+             #{speciality},#{salary},#{treatment},#{experience});
+    </insert>
+
+    <delete id="delInfoOne">
+        DELETE FROM chengde_register WHERE userid = #{userId};
+    </delete>
+
+    <select id="queryAllInfo" resultType="com.geektech.entity.ChengdeRegister">
+        SELECT * FROM chengde_register;
+    </select>
+
+
+    <select id="queryAdminById" resultType="ChengdeBasic">
+        SELECT * FROM chengde_basic;
+    </select>
+
+</mapper>

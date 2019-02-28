@@ -1,0 +1,94 @@
+1-首先明确要下载什么：JDK 1.7.0 +  mysql数据库 + web服务器（tomcat或者其他的web logic等）
+
+（1）下载JDK ：
+   
+     step1:  yum -y list java*   :  查找java相关的列表 ， linux下的openJDK
+
+
+     step2： yum -y install java-1.7.0-openjdk*  : 以root权限下载相应版本的jdk，这里下载的是1.7.0版本，最好配置1.8.0版本的tomcat
+
+   
+     step3:java -version 、java 、javac  :  正确显示jdk的相关信息就是安装成功了。
+
+
+     step4:默认情况下jdk安装的路径是 /usr/lib/jvm ，也可能在 /etc/alternatives
+
+
+
+ （2）下载mysql数据库和mysql server：
+
+      step1:yum list installed | grep  mysql  :  查看CentOS自带mysql是否已经安装。
+
+
+
+      step2：yum  -y  remove  mysql-libs.x86_64  : 删去自带的mysql ,Complete!即卸载完毕。
+
+
+      step3: yum  -y   list  mysql*   :  查看目前网络上的mysql版本信息
+
+
+      step4: yum  -y   install  mysql-server    mysql   mysql-server  :   安装mysql只是安装好了数据库，mysql-server才是客户端的控制台程序。
+
+
+      step5: rpm  -qi  mysql-server  :  查看刚安装mysql数据库版本信息。
+
+   
+      step6:重启mysql，输入：mysql ，就可以进入控制台了。
+
+    
+      step7:进入mysql数据库，user表，可以看到root用户的密码，
+     
+      update  user   set   password = 'abc5518988'   where  user = 'root'; 修改密码。
+
+
+
+  (3)安装tomcat：因为yum源不一定能更新到最新版本，就到官方下载了apache-tomcat-8.0.30.tar.gz 用winSCP传送到Linux系统的 
+a. 代码位置：/usr/local/[软件名]/[软件版本]/
+b. PID位置：/usr/local/[软件名]/[软件版本]/conf/[软件名].pid 或者 /var/run/[软件名]-[版本号].pid
+c. 日志位置: /var/log/[软件名]/[软件版本]/
+ 
+ /* 默认是usr/local/目录下  */
+
+    step1：在windows中下载Apache-tomcat-8.0.30.tar.gz 然后放到CentOS的/usr/local下
+
+    step2：tar -xvf  apache-tomcat-8.0.30.tar.gz   //解压tomcat包
+
+    step3: bat是windows下的启动文件，sh是Linux下的启动文件。
+ 
+    step4: tail -f  logs/catalina.out   //查看tomcat启动时的信息。
+
+
+    step5:用的时候就在bin中打开startup.sh就行了。   //操作和win下差不多。
+
+
+
+
+2-把自己的项目配置到tomcat的webapps目录下就行了，因为
+    
+    http://ip:端口号/ ，中的/是webapps目录。
+     
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

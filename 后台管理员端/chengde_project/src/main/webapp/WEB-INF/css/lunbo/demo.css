@@ -1,0 +1,42 @@
+body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	-webkit-transform: translate3d(0, 0, 0);
+	/*font-family: sans-serif;*/
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.exPagination.active {
+	color: red;
+}
+
+.header {
+	margin-bottom: 40px;
+	margin: 20px;
+}
+
+.header h2 {
+	margin-bottom: 10px;
+}
+
+.header a {
+	color: #356D84;
+}
+
+.header ul {
+	padding-left: 0px;
+}
+
+.header ul li {
+	list-style:none;
+	display: inline;
+}
