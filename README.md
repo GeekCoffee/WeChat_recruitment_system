@@ -2,7 +2,8 @@
 ### 神马都是浮云，先上图
 
 ![人员信息录入页](https://github.com/GeekCoffee/WeChat_recruitment_system/blob/master/demo_pic/demo1.png
-) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+) 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![企业信息介绍页](https://github.com/GeekCoffee/WeChat_recruitment_system/blob/master/demo_pic/demo2.png
 )
 
@@ -13,6 +14,7 @@
 - 拨打公司电话功能
 
 
+
 ### web后台管理端(功能简介)
 
 - 管理员登录页面：防止get登录、用户名或密码正确性检测、回车登录功能
@@ -21,7 +23,8 @@
 
 ![管理员登录页面](https://github.com/GeekCoffee/WeChat_recruitment_system/blob/master/demo_pic/demo3.png
 )
-  ![后台管理页面](https://github.com/GeekCoffee/WeChat_recruitment_system/blob/master/demo_pic/demo4.png
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![后台管理页面](https://github.com/GeekCoffee/WeChat_recruitment_system/blob/master/demo_pic/demo4.png
 )
 
 #### 使用说明
