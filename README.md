@@ -8,7 +8,6 @@
 ![企业信息介绍页](https://github.com/GeekCoffee/WeChat_recruitment_system/blob/master/demo_pic/demo2.png
 )
 
->>>>>>> ec005421e43003efd860b002593d50e271aa107d
 ### 微信小程序端(功能简介)
 
 - 面试人员的个人电子简历录入功能
