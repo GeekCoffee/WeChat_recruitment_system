@@ -12,7 +12,7 @@
       <!-- 使用junit4来做单元测试用的，使用的是映射来处理 -->
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
     <!-- 1、 日志依赖包 -->
