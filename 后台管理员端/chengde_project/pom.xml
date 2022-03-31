@@ -89,7 +89,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
-      <version>4.1.7.RELEASE</version>
+      <version>5.3.18</version>
     </dependency>
     <dependency><!-- 包扫描等扩展功能 -->
       <groupId>org.springframework</groupId>
